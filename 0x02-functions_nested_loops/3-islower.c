@@ -1,8 +1,6 @@
 #include "main.h"
-
 /**
  * _islower: function name
- * @c: variable
  * description: check lowercase
  * Return: integer
  */
