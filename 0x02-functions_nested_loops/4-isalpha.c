@@ -2,7 +2,7 @@
 /**
  * _isalpha: any letter
  * @c: variable
- * description : check letter
+ * description - return 1 if upper/lower
  * Return: int
  */
 int _isalpha(int c)
