@@ -6,9 +6,23 @@
  * Return: int
  */
 
-int print_last_digit(int c)
+int print_last_digit(int a)
 {
-	int q = c % 10;
+	
+	if (a < 0)
+	{
+		a = -(a % 10);
+	}
+	else if (a > 0)
+	{
+		a = a % 10;
+	}
+	else
+	{
+		a = 0;
+	}
 
-	return (q);
+	_putchar(a + '0');
+
+	return (a);
 }
