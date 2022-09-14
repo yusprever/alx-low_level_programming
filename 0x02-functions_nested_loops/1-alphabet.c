@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * main - print alphabet in lowercase
- * Return : success == 0
+ * print_alphabet - print alphabet in lowercase
+ * Return : void
  */
-
 void print_alphabet(void)
 {
 	char c;
-	for ( c = 'a'; c <= 'z'; c++)
+
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
 	}
