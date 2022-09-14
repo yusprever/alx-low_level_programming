@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _islower: converting to lower case
+ * _islower: function name
  * @c: variable
- * description: 1 lowercase, 0 other
+ * description: check lowercase
  * Return: integer
  */
 int _islower(int c)
