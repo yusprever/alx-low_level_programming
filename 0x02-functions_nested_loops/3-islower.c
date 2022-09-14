@@ -2,7 +2,9 @@
 
 /**
  * _islower: converting to lower case
- * Return: 1 for lowercase and 0 for others
+ * @c: variable
+ * Description: 1 for lowercase and 0 for others
+ * Return: integer
  */
 int _islower(int c)
 {
@@ -10,5 +12,8 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
