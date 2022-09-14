@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
- * _islower: function name
- * description: check lowercase
- * Return: integer
+ * _islower - function name
+ * @c : variable
+ * description :check lowercase
+ * Return: int
  */
 int _islower(int c)
 {
