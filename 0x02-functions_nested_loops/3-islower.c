@@ -3,7 +3,7 @@
 /**
  * _islower: converting to lower case
  * @c: variable
- * Description: 1 for lowercase and 0 for others
+ * Description: 1 lowercase, 0 other
  * Return: integer
  */
 int _islower(int c)
