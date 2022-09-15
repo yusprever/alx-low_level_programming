@@ -1,10 +1,9 @@
-#include "main.h"
+#include "main"
 
 /**
- * _isupper - check if uppercase
- * @c - char
- * description - check if uppercase
- * Return: 0 :otherwise, 1 :uppercase
+ * _isupper - Check if paramter c represents an uppercase letter.
+ * @c: Int representing a character
+ * Return: Always 0.
  */
 int _isupper(int c)
 {
