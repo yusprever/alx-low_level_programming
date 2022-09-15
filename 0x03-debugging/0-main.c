@@ -2,10 +2,8 @@
 
 /**
 * main - tests function positiv_or_negative
-* description - test if no is + o -
 * Return: 0
 */
-
 int main(void)
 {
 	int i;
