@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _strlen - print lenth of char
- * @s - random char
- * description - print length of char vaiable
+ * _strlen - returns the length of a string
+ * @s: string to find length of
  *
- * Retrun: int
+ * Return: length of s
  */
 int _strlen(char *s)
 {
