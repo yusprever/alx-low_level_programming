@@ -8,5 +8,11 @@ include "main.h"
  */
 void _puts(char *str)
 {
-	_putchar("%d \n",str);
+	int i = 0;
+	while (*(str + i))
+	{
+	_putchar(*(str + i));
+	i++;
+	}
+	_putchar('\n');
 }
