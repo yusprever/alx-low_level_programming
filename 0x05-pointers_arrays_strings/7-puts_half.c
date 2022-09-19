@@ -19,13 +19,13 @@ void puts_half(char *str)
 	
 	if (size % 2 == 0)
 	{
-		stop = size / 2;
+		stop = (size / 2) + 1;
 	}
 	else
 	{
-		stop = (size - 1) / 2;
+		stop = size / 2;
 	}
-	stop++;
+	
 	while (stop < size)
 	{
 		_putchar(*(str + stop));
