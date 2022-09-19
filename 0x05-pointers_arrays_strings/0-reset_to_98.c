@@ -3,6 +3,8 @@
 /**
  * reset_to_98 - update val of pointer
  *
+ * @n - pointer vall
+ *
  * description - change pointer val to 98
  *
  * Return: null
