@@ -1,13 +1,10 @@
 #include "main.h"
 
 /**
- * reset_to_98 - update val of pointer
+ * reset_to_98 - resets value of pointer to 98
+ * @n: pointer to reset to 98
  *
- * @n - pointer vall
- *
- * description - change pointer val to 98
- *
- * Return: null
+ * Return: void
  */
 void reset_to_98(int *n)
 {
