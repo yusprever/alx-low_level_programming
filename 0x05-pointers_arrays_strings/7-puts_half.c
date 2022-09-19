@@ -17,13 +17,10 @@ void puts_half(char *str)
 		size++;
 	}
 	
-	if (size % 2 == 0)
+	stop = size / 2;
+	if (size % 2)
 	{
-		stop = size / 2;
-	}
-	else
-	{
-		stop = (size - 1) / 2;
+		stop += 1;
 	}
 	
 	while (stop < size)
