@@ -26,7 +26,7 @@ void puts_half(char *str)
 		stop = (size - 1) / 2;
 	}
 	
-	while (stop <= size)
+	while (stop <= size + 1)
 	{
 		_putchar(*(str + stop));
 		stop++;
