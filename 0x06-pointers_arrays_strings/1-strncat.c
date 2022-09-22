@@ -1,39 +1,27 @@
 #include "main.h"
 
 /**
- * _strncat - combines two string + n
- * @dest: string 1
- * @src: string 2
- * @n: size to copy from src
+ * _strncat - appends src to the dest string
+ * @dest: string to append by src
+ * @src: string to append to dest
+ * @n: largest number of bytes to append
  *
- * Return: char
+ * Return: address of dest
  */
-char *_stncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
-	int len = 0;
-	int len2 = 0;
-	int sizeN = 0;
+	int i, j;
 
-	while (*(dest + len))
+	i = j = 0;
+	while (*(dest + i))
+		i++;
+	while (j < n && *(src + j))
 	{
-		len++;
+		*(dest + i) = *(src + j);
+		i++;
+		j++;
 	}
-
-	while (*(src + sizeN))
-	{
-		if (sizeN == n)
-		{
-			dest[len] = *(src + n);
-		}
-		sizeN++;
-	}
-	len++;
-	while (*(src + len2))
-	{
-		dest[len] = *(src + len2);
-		len++;
-		len2++;
-	}
-
+	if (j < n)
+		*(dest + i) = *(src + j);
 	return (dest);
 }
