@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * *_strcat - combines two strings
- * @dest: string one
- * @src: string two
+ * _strcat - combines two strings
+ * @dest - first string
+ * @src - Second string
  *
- * Return: char
+ * Return: char*
  */
 char *_strcat(char *dest, char *src)
 {
@@ -16,7 +16,7 @@ char *_strcat(char *dest, char *src)
 	{
 		len++;
 	}
-	while (*(src + len2))
+	while(*(src + len2))
 	{
 		dest[len] = *(src + len2);
 		len++;
