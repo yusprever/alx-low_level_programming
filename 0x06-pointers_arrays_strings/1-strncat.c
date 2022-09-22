@@ -25,11 +25,14 @@ char *_stncat(char *dest, char *src, int n)
 		{
 			dest[len] = *(src + n);
 		}
+		sizeN++;
 	}
 	len++;
 	while (*(src + len2))
 	{
 		dest[len] = *(src + len2);
+		len++;
+		len2++;
 	}
 
 	return (dest);
