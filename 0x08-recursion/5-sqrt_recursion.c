@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - returns val squaroot or n
- * @n: value
+ * _sqrt_recursion - find natural square root
+ * @n: int
  * Return: int
  */
+
 int _sqrt_recursion(int n)
 {
-        return (square(n,1);
+return (square(n, 1));
 }
 
 /**
@@ -20,11 +21,11 @@ int _sqrt_recursion(int n)
 int square(int n, int val)
 {
 
-	if (val * val == n)
-		return (val);
-	else if (val * val < n)
-		return  (square(n, val + 1));
-	else
-		return (-1);
+if (val * val == n)
+	return (val);
+else if (val * val < n)
+	return  (square(n, val + 1));
+else
+	return (-1);
 
 }
